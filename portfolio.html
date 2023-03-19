@@ -11,37 +11,39 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Roboto", sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html"><span>Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li><a href="/agencja">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="/kontakt">Kontakt</a></li>
+    <header class="menu">
+      <a href="index.html" class="menu-link-logo-top"
+        ><span class="menu-logo">Web</span>Studio</a
+      >
+      <nav class="navigation">
+        <ul class="list">
+          <li><a href="index.html" class="navigation-link">Agencja</a></li>
+          <li>
+            <a href="portfolio.html" class="navigation-link">Portfolio</a>
+          </li>
+          <li><a href="/kontakt" class="navigation-link">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="contact-link"
+        >info@devstudio.com</a
+      >
+      <a href="tel:+48111111111" class="contact-link">+48 111 111 111</a>
     </header>
     <main>
-      <ul>
-        <li><button type="button">Wszystkie</button></li>
-        <li><button type="button">Strony</button></li>
-        <li><button type="button">Aplikacje</button></li>
-        <li><button type="button">Dizajn</button></li>
-        <li><button type="button">Marketing</button></li>
+      <ul class="filter">
+        <li><button type="button" class="filter-name">Wszystkie</button></li>
+        <li><button type="button" class="filter-name">Strony</button></li>
+        <li><button type="button" class="filter-name">Aplikacje</button></li>
+        <li><button type="button" class="filter-name">Dizajn</button></li>
+        <li><button type="button" class="filter-name">Marketing</button></li>
       </ul>
-      <section>
-        <ul>
-          <li>
-            <figure>
+      <section class="portfolio">
+        <ul class="list">
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/technocrack.jpg"
                 alt="strona internetowa technocrack"
@@ -49,13 +51,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Technocrack</h3>
-                <span>Strona internetowa</span>
+                <h3 class="portfolio-item">Technocrack</h3>
+                <span class="portfolio-type">Strona internetowa</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/grafika-new-orlean.jpg"
                 alt="projekt graficzny"
@@ -63,13 +65,15 @@
                 height="294"
               />
               <figcaption>
-                <h3>Grafika New Orlean vs Golden Star</h3>
-                <span>Dizajn</span>
+                <h3 class="portfolio-name">
+                  Grafika New Orlean vs Golden Star
+                </h3>
+                <span class="portfolio-type">Dizajn</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/restauracja-seafood.jpg"
                 alt="aplikacja restauracji seafood"
@@ -77,13 +81,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Restauracja Seafood</h3>
-                <span>Aplikacja</span>
+                <h3 class="portfolio-name">Restauracja Seafood</h3>
+                <span class="portfolio-type">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/projekt-prime.jpg"
                 alt="marketing projektu prime"
@@ -91,13 +95,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Prime</h3>
-                <span>Marketing</span>
+                <h3 class="portfolio-name">Projekt Prime</h3>
+                <span class="portfolio-type">Marketing</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/projekt-boxes.jpg"
                 alt="aplikacja projektu boxes"
@@ -105,13 +109,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt Boxes</h3>
-                <span>Aplikacja</span>
+                <h3 class="portfolio-name">Projekt Boxes</h3>
+                <span class="portfolio-type">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/inspiration-borders.jpg"
                 alt="strona internetowa inspiration has no borders"
@@ -119,13 +123,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Inspiration has no Borders</h3>
-                <span>Strona internetowa</span>
+                <h3 class="portfolio-name">Inspiration has no Borders</h3>
+                <span class="portfolio-type">Strona internetowa</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/magazyn-lm.jpg"
                 alt="oprojekt graficzny magazynu limited edition"
@@ -133,13 +137,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Magazyn Limited Edition</h3>
-                <span>Dizajn</span>
+                <h3 class="portfolio-name">Magazyn Limited Edition</h3>
+                <span class="portfolio-type">Dizajn</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/projekt-lab.jpg"
                 alt="marketing projektu lab"
@@ -147,13 +151,13 @@
                 height="294"
               />
               <figcaption>
-                <h3>Projekt LAB</h3>
-                <span>Marketing</span>
+                <h3 class="portfolio-name">Projekt LAB</h3>
+                <span class="portfolio-type">Marketing</span>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="portfolio-image">
               <img
                 src="images/growing-business.jpg"
                 alt="aplikacja growing business"
@@ -161,22 +165,26 @@
                 height="294"
               />
               <figcaption>
-                <h3>Growing Business</h3>
-                <span>Aplikacja</span>
+                <h3 class="portfolio-name">Growing Business</h3>
+                <span class="portfolio-type">Aplikacja</span>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="https://patrycjamusial.github.io/goit-markup-hw-01/"
-        ><span>Web</span>Studio</a
+    <footer class="bottom-contact">
+      <a href="index.html" class="menu-link-logo-bottom"
+        ><span class="menu-logo">Web</span>Studio</a
       >
-      <address>
-        <span>m. Warszawa, Aleje Jerozolimskie 21</span>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+      <address class="contact">
+        <span class="contact-address">m. Warszawa, Aleje Jerozolimskie 21</span>
+        <a href="mailto:info@devstudio.com" class="contact-link-bottom"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+48111111111" class="contact-link-bottom"
+          >+48 111 111 111</a
+        >
       </address>
     </footer>
   </body>
