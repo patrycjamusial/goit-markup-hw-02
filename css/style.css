@@ -17,14 +17,12 @@ body {
 .contact-address {
   color: var(--brand-color-white);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .contact-link-bottom {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -35,10 +33,14 @@ body {
 }
 .contact-link {
   color: var(--brand-color-text-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
   text-decoration: none;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--brand-color-blue);
 }
 .filter {
@@ -135,7 +137,6 @@ body {
 }
 .our-strengths-text {
   color: var(--brand-color-text-grey);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -168,7 +169,6 @@ body {
 }
 .our-team-job {
   color: var(--brand-color-text-grey);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -183,7 +183,6 @@ body {
 }
 .portfolio-type {
   color: var(--brand-color-text-grey);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
